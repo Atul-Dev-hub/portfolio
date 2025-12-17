@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atul Yadav | Full Stack Web Developer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      background: radial-gradient(circle at top, #1e293b, #020617);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p.role {
+      font-size: 1.3rem;
+      color: #94a3b8;
+      margin-bottom: 0.6rem;
+    }
+
+    header a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 4rem 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+
+    h2::after {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background: #38bdf8;
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      border-radius: 2px;
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #020617;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #1e293b;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.05);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      border-color: #38bdf8;
+      background-color: #1e293b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem 1rem;
+      border-top: 1px solid #1e293b;
+      color: #94a3b8;
+    }
+
+    footer a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <header>
+    <h1>Atul Yadav</h1>
+    <p class="role">B.Tech CSE | IIIT Guwahati</p>
+    <p class="role">Full Stack Web Developer</p>
+    <p>Undergraduate at IIIT Guwahati passionate about building scalable and user-friendly web applications.</p>
+    <p>📞 +91 88875799949</p>
+    <p>
+      🔗 <a href="https://github.com/Atul-Dev-hub" target="_blank">
+        github.com/Atul-Dev-hub
+      </a>
+    </p>
+  </header>
+
+  <!-- About -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m a motivated and detail-oriented B.Tech student and Full Stack Developer with a solid foundation in HTML, CSS, JavaScript, and React.js, along with a working knowledge of Data Structures and Algorithms (DSA). I enjoy creating user-friendly and visually appealing web applications and am always excited to take on new challenges, contribute to innovative projects, and continue improving my technical skills.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <div class="card"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React</p></div>
+      <div class="card"><h3>Backend</h3><p>Node.js, Express.js, REST APIs</p></div>
+      <div class="card"><h3>Database & Tools</h3><p>MongoDB, MySQL, Git, GitHub, Linux</p></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Full Stack Web Application</h3>
+        <p>React, Node.js, Express, MongoDB</p>
+        <p>Complete web application with authentication, CRUD operations, and REST APIs.</p>
+      </div>
+      <div class="card">
+        <h3>Personal Portfolio</h3>
+        <p>HTML, CSS, JavaScript</p>
+        <p>Responsive personal portfolio showcasing skills and projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coursework -->
+  <section>
+    <h2>Relevant Coursework</h2>
+    <div class="skills">
+      <div class="card"><p>Data Structures & Algorithms (DSA)</p></div>
+      <div class="card"><p>Database Management Systems (DBMS)</p></div>
+      <div class="card"><p>Operating Systems (OS)</p></div>
+      <div class="card"><p>Computer Networks (CN)</p></div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section>
+    <h2>Education</h2>
+    <p><strong>B.Tech</strong> – Computer Science & Engineering (CSE)</p>
+    <p>Indian Institute of Information Technology, Guwahati (IIIT Guwahati)</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>📧 yaduvansiatul370@gmail.com</p>
+    <p>📞 +91 88875799949</p>
+    <p>
+      🔗 <a href="https://github.com/Atul-Dev-hub" target="_blank">
+        github.com/Atul-Dev-hub
+      </a>
+    </p>
+    <p>© 2025 Atul Yadav</p>
+  </footer>
+
+</body>
+</html>
