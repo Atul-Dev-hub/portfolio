@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Atul Yadav | Full Stack Web Developer</title>
+  <title>Atul Yadav | Software Engineer</title>
   <style>
     * {
       margin: 0;
@@ -60,8 +60,6 @@
       font-size: 2rem;
       margin-bottom: 1.5rem;
       position: relative;
-      opacity: 0;
-      animation: fadeIn 1s forwards;
     }
 
     h2::after {
@@ -107,153 +105,152 @@
       color: #38bdf8;
       text-decoration: none;
     }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2.2rem;
-      }
-    }
   </style>
 </head>
+
 <body>
 
- <!-- Hero -->
+<!-- Hero -->
 <header>
   <h1>Atul Yadav</h1>
   <p class="role">B.Tech CSE | IIIT Guwahati</p>
-  <p class="role">Full Stack Web Developer</p>
-  <p>Undergraduate at IIIT Guwahati passionate about building scalable and user-friendly web applications.</p>
+  <p class="role">Software Engineer</p>
+  <p>Undergraduate passionate about building scalable and user-friendly web applications.</p>
 
   <p>📞 +91 88875799949</p>
   <p>📧 atuljobs26@gmail.com</p>
 
   <p>
-    🔗 <a href="https://github.com/Atul-Dev-hub" target="_blank">
-      github.com/Atul-Dev-hub
-    </a>
+    🔗 <a href="https://github.com/Atul-Dev-hub" target="_blank">github.com/Atul-Dev-hub</a>
   </p>
 </header>
 
+<!-- About -->
+<section>
+  <h2>About Me</h2>
+  <p>
+    Motivated Full Stack Developer with strong foundations in HTML, CSS, JavaScript, React, and backend technologies.
+    Experienced in problem-solving, DSA, and building performance-optimized, real-world applications.
+  </p>
+</section>
 
-  <!-- About -->
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I’m a motivated and detail-oriented B.Tech student and Full Stack Developer with a solid foundation in HTML, CSS, JavaScript, and React.js, along with a working knowledge of Data Structures and Algorithms (DSA). I enjoy creating user-friendly and visually appealing web applications and am always excited to take on new challenges, contribute to innovative projects, and continue improving my technical skills.
-    </p>
-  </section>
+<!-- Skills -->
+<section>
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <div class="card"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React, Next.js</p></div>
+    <div class="card"><h3>Backend</h3><p>Node.js, Express.js, REST APIs</p></div>
+    <div class="card"><h3>Database & Tools</h3><p>MongoDB, MySQL, Git, GitHub, Linux</p></div>
+  </div>
+</section>
 
-  <!-- Skills -->
-  <section>
-    <h2>Technical Skills</h2>
-    <div class="skills">
-      <div class="card"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React</p></div>
-      <div class="card"><h3>Backend</h3><p>Node.js, Express.js, REST APIs</p></div>
-      <div class="card"><h3>Database & Tools</h3><p>MongoDB, MySQL, Git, GitHub, Linux</p></div>
-    </div>
-  </section>
-  
+<!-- Projects -->
 <!-- Projects -->
 <section>
   <h2>Projects</h2>
   <div class="projects">
+
     <div class="card">
       <h3>AI Finance Platform</h3>
-<p><strong>Tech Stack:</strong> Next.js, JavaScript, Node.js</p>
-<p>
-Developed a modern, high-performance AI-driven finance platform using <strong>Next.js</strong> with the App Router architecture. The application is designed for scalability, fast load times, and SEO optimization, ensuring a smooth and efficient user experience. It leverages optimized font loading, hot-reloading, and a clean, production-ready code structure. Deployed seamlessly on <strong>Vercel</strong>, this project demonstrates strong expertise in frontend architecture, performance optimization, and modern web development best practices.
-</p>
+      <p><strong>Tech Stack:</strong> Next.js, JavaScript, Node.js</p>
 
-    </div>
-    <div class="card">
-      <h3>E-commerce Shopping Cart</h3>
-      <p><strong>Tech Stack:</strong> React, Redux Toolkit, Tailwind CSS</p>
+      <ul>
+        <li>
+          Built a <strong>production-grade AI-driven finance web platform</strong> using
+          <strong>Next.js App Router</strong> with server-side rendering (SSR).
+        </li>
+        <li>
+          Optimized application performance, SEO, and initial page load time through
+          efficient routing, asset optimization, and modern frontend best practices.
+        </li>
+        <li>
+          Designed a clean, modular, and scalable codebase following
+          industry-standard frontend architecture principles.
+        </li>
+        <li>
+          Leveraged Next.js features such as optimized font loading and hot reloading
+          to enhance developer productivity and user experience.
+        </li>
+        <li>
+          Deployed the application on <strong>Vercel</strong> with seamless CI/CD integration,
+          ensuring fast and reliable production releases.
+        </li>
+      </ul>
+
       <p>
-        A modern, responsive e-commerce shopping cart application that allows users to browse products, add items to a cart, and manage their selections seamlessly. Features include product listing, real-time notifications using React Hot Toast, smooth navigation with React Router, and a beautifully styled interface powered by Tailwind CSS and TW Elements.
+        🔗 <a href="https://github.com/Atul-Dev-hub/AI-Finance-Platform" target="_blank">
+          GitHub Repository
+        </a>
       </p>
     </div>
+
+    <div class="card">
+      <h3>Driver Drowsiness Detection System</h3>
+      <p><strong>Tech Stack:</strong> Python, TensorFlow, OpenCV</p>
+
+      <ul>
+        <li>
+          Developed a <strong>real-time computer vision system</strong> to detect driver
+          drowsiness from live video streams using facial and eye movement analysis.
+        </li>
+        <li>
+          Achieved approximately <strong>94% accuracy</strong> on a custom validation dataset
+          through model fine-tuning and data preprocessing.
+        </li>
+        <li>
+          Implemented an optimized <strong>OpenCV pipeline</strong> for face detection and
+          eye region-of-interest (ROI) extraction, maintaining
+          <strong>20–25 FPS</strong> on consumer-grade hardware.
+        </li>
+        <li>
+          Fine-tuned an <strong>ImageNet-pretrained MobileNet CNN</strong> to balance accuracy
+          and inference speed for real-time performance.
+        </li>
+        <li>
+          Engineered low-latency alert logic to trigger audible warnings within
+          <strong>&lt;200 ms</strong> of sustained eye closure, improving driver safety.
+        </li>
+      </ul>
+
+      <p>
+        🔗 <a href="https://github.com/Atul-Dev-hub/driver-dowsiness-detection" target="_blank">
+          GitHub Repository
+        </a>
+      </p>
+    </div>
+
   </div>
 </section>
 
 
-  <!-- Coursework -->
-  <section>
-    <h2>Relevant Coursework</h2>
-    <div class="skills">
-      <div class="card"><p>Data Structures & Algorithms (DSA)</p></div>
-      <div class="card"><p>Database Management Systems (DBMS)</p></div>
-      <div class="card"><p>Operating Systems (OS)</p></div>
-      <div class="card"><p>Computer Networks (CN)</p></div>
-    </div>
-  </section>
-  <!-- Achievements -->
+<!-- Coding Profiles -->
 <section>
-  <h2>Achievements</h2>
+  <h2>Coding Profiles</h2>
   <div class="skills">
     <div class="card">
-      <p>Completed multiple academic and personal projects showcasing hands-on experience with modern web development tools.
-replace all these with the above achievement.</p>
+      <p>🍽️ <a href="https://www.codechef.com/users/devil_king_55" target="_blank">CodeChef</a></p>
     </div>
     <div class="card">
-      <p>🏆 Won multiple college-level tournaments, demonstrating teamwork and competitive spirit.</p>
+      <p>💻 <a href="https://leetcode.com/u/perky_407/" target="_blank">LeetCode</a></p>
     </div>
     <div class="card">
-      <p>📊 Secured All India Rank 25,000 in JEE Mains, earning admission to IIIT Guwahati.</p>
+      <p>⚔️ <a href="https://codeforces.com/profile/jai_shree_ram__" target="_blank">Codeforces</a></p>
     </div>
   </div>
 </section>
 
-<!-- Education -->
-<section>
-  <h2>Education</h2>
-
-  <div class="skills">
-    <div class="card">
-      <p><strong>B.Tech – Computer Science & Engineering</strong></p>
-      <p>Indian Institute of Information Technology, Guwahati (IIIT Guwahati)</p>
-    </div>
-
-    <div class="card">
-      <p><strong>Class XII (CBSE)</strong></p>
-      <p>Year of Passing: 2021</p>
-      <p>Score: 88.4%</p>
-      <p>Medium: English</p>
-    </div>
-
-    <div class="card">
-      <p><strong>Class X (CBSE)</strong></p>
-      <p>Year of Passing: 2019</p>
-      <p>Score: 88.4%</p>
-      <p>Medium: English</p>
-    </div>
-  </div>
-</section>
-
-
-  <!-- Footer -->
-  <footer>
-    <p>📧 atuljobs26@gmail.com
-</p>
-    <p>📞 +91 88875799949</p>
-    <p>
-      🔗 <a href="https://github.com/Atul-Dev-hub" target="_blank">
-        github.com/Atul-Dev-hub
-      </a>
-    </p>
-    <p>© 2025 Atul Yadav</p>
-  </footer>
+<!-- Footer -->
+<footer>
+  <p>📧 atuljobs26@gmail.com</p>
+  <p>📞 +91 88875799949</p>
+  <p>🔗 <a href="https://github.com/Atul-Dev-hub" target="_blank">github.com/Atul-Dev-hub</a></p>
+  <p>© 2025 Atul Yadav</p>
+</footer>
 
 </body>
 </html>
+
+
 
 
 
